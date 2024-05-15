@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.10.14
 WORKDIR /opt/app
 COPY . .
 RUN pip install -r requirements.txt
